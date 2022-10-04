@@ -1,0 +1,50 @@
+:root {
+  --mainBlue: #210c93;
+  --mainGreen: #058538;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainYellow: rgb(212, 94, 10);
+  --mainGrey: #c3bfbf;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--mainWhite) !important;
+  color: var(--mainBlack) !important;
+}
+.text-title {
+  font-family: "Alkalami", serif;
+  color: var(--mainBlue) !important;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+.text-blue {
+  color: var(--mainBlack);
+}
+.text-bright {
+  color: var(--mainGreen);
+}
+
+.cartEmpty {
+  font-style: italic;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  color: var(--mainGreen);
+  font-size: 2rem;
+}
+.btn-black {
+  background-color: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainBlack);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainBlack) !important;
+}
+.btn-black:hover {
+  background-color: var(--mainGrey) !important;
+  color: var(--mainBlack) !important;
+}
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: rgb(212, 94, 10);
+}
